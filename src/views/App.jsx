@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import '../views/App.scss'
+import { useState } from 'react';
+import './App.scss';
+import MyComponent from './Example/MyComponent';
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0)
 
   return (
     <div className='App'>
-
-    </div>
+      <MyComponent />
+    </div >
   )
 }
 
